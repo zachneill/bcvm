@@ -1,0 +1,8 @@
+{
+  "name": "bcvmfrontend",
+  "compatibility_date": "2026-02-07",
+  "compatibility_flags": ["nodejs_compat"],
+
+  // Cloudflare Pages configuration
+  "pages_build_output_dir": "dist/cloudflare"
+}

@@ -6,13 +6,13 @@ import {Injectable} from "@angular/core";
 // PRODUCTION / HTTPS
 
 export enum Configs {
-  saveUrl = 'https://bcvm.herokuapp.com/save',
-  supplyUrl = 'https://bcvm.herokuapp.com/supply/',
-  machinesUrl = 'https://bcvm.herokuapp.com/machines',
-  loginUrl = 'https://bcvm.herokuapp.com/login',
-  createAccountUrl = 'https://bcvm.herokuapp.com/create',
-  userUrl = 'https://bcvm.herokuapp.com/user/',
-  updateUserUrl = 'https://bcvm.herokuapp.com/updateUser',
+  saveUrl = 'https://bcvm.zachneill.com/save',
+  supplyUrl = 'https://bcvm.zachneill.com/supply/',
+  machinesUrl = 'https://bcvm.zachneill.com/machines',
+  loginUrl = 'https://bcvm.zachneill.com/login',
+  createAccountUrl = 'https://bcvm.zachneill.com/create',
+  userUrl = 'https://bcvm.zachneill.com/user/',
+  updateUserUrl = 'https://bcvm.zachneill.com/updateUser',
 }
 
 // LOCAL / HTTP
