@@ -9,9 +9,11 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQL95Dialect
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: 'jdbc:postgresql://localhost:5432/postgres'
+    # url: 'jdbc:postgresql://localhost:5432/postgres'
 
     # Local configuration (COMMENT BELOW OUT FOR PRODUCTION)
-#    username: postgres
-#    password: '0101'
+    # username: postgres
+    # password: '0101'
 
+server:
+  port: 8080

@@ -33,3 +33,6 @@ build/
 .vscode/
 
 src/main/java/com/springapi/bcvm/Captcha.java
+
+.angular
+node_modules/
